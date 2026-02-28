@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; }
+
+.container { text-align: center; margin-top: 50px; }
+
+input { padding: 8px; width: 200px; margin-right: 10px; }
+
+button { padding: 8px 15px; cursor: pointer; }
+
+.result { margin-top: 20px; }
+
+.gauge { position: relative; width: 80%; height: 25px; background: linear-gradient(to right, #4da6ff, #4dff88, #ffcc00, #ff4d4d); margin: 20px auto; border-radius: 20px; }
+
+.labels { display: flex; justify-content: space-between; font-size: 12px; padding: 0 5px; margin-bottom: 5px; }
+
+.needle { position: absolute; top: 0; width: 10px; height: 25px; background-color: black; border-radius: 5px; transition: left 0.5s ease-in-out; }
