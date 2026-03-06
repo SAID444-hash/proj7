@@ -1,5 +1,3 @@
-Here is a **clean `README.md` file** you can include in your React project repository.
-
 # Blood Pressure Gauge App (ReactJS)
 
 ## Project Description
